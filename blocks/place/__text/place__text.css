@@ -1,0 +1,4 @@
+.place__text {
+  width: 100%;
+  grid-area: place__text;
+}
