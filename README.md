@@ -7,6 +7,9 @@
 2. Grid
 3. Nested BEM структура стилей сайта
 
+Ссылка на сайт 
+https://nikolausa.github.io/russian-travel/
+
 
 ### Обзор
 * Интро

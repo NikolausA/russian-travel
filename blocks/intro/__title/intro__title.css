@@ -6,9 +6,13 @@
   font-size: 54px;
   line-height: 58px;
 }
+
 @media (max-width: 767px) {
-    .intro__title {
-        font-size: 32px;
-        line-height: 35px;
-      }
+  .intro__title {
+    width: 100%;
+    padding-right: 60px;
+    box-sizing: border-box;
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

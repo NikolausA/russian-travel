@@ -13,35 +13,36 @@
     "place__image place__text";
 }
 @media (max-width: 1279px) {
-    .place {
-        grid-template-columns: minmax(min-content, 440px) minmax(
-            min-content,
-            max-content
-          );
-        gap: 48px 32px;
-      }
+  .place {
+    grid-template-columns: minmax(min-content, 440px) minmax(
+        min-content,
+        max-content
+      );
+    gap: 48px 32px;
+  }
 }
 @media (max-width: 1023px) {
-    .place {
-        margin-bottom: 73px;
-        grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
-        gap: 48px 28px;
-      }
+  .place {
+    margin-bottom: 73px;
+    grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
+    gap: 46px 28px;
+  }
 }
-@media (max-width: 1023px) {
-    .place:first-child > .place__title {
-        width: 97%;
-      }
-}
+
 @media (max-width: 767px) {
-    .place {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, auto);
-        gap: 32px;
-        grid-template-areas:
-          "place__title"
-          "place__website"
-          "place__image"
-          "place__text";
-      }
+  .place {
+    margin-bottom: 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    gap: 32px;
+    grid-template-areas:
+      "place__title"
+      "place__website"
+      "place__image"
+      "place__text";
+  }
+  
+  .place:last-child {
+    margin: 0;
+  }
 }

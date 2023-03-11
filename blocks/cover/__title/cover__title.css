@@ -10,6 +10,8 @@
 }
 @media (max-width: 767px) {
     .cover__title {
+      padding: 0 16px;
+      box-sizing: border-box;
         font-size: 32px;
         line-height: 35px;
       }
