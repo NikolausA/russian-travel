@@ -13,7 +13,7 @@
     font-size: 42px;
     line-height: 46px;
   }
-  .first-place.place__title {
+  .place__title:first-of-type {
     width: 97%;
     box-sizing: border-box;
   }
